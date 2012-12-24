@@ -5,7 +5,7 @@ try:
 except ImportError:
     from distutils.core import setup
 
-
+import re
 
 # reading package version (same way sqlalchemy does)
 with open(os.path.join(os.path.dirname(__file__),'CherrypyMako', '__init__.py')) as v_file:
